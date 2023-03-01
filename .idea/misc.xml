@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TechShopApp/app/src/main/res/drawable/card_background.xml" value="0.287" />
+        <entry key="..\:/TechShopApp/app/src/main/res/drawable/cat_background.xml" value="0.287" />
+        <entry key="..\:/TechShopApp/app/src/main/res/drawable/circleindicator_round.xml" value="0.387" />
+        <entry key="..\:/TechShopApp/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.387" />
+        <entry key="..\:/TechShopApp/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.387" />
+        <entry key="..\:/TechShopApp/app/src/main/res/drawable/ic_baseline_horizontal_rule_24.xml" value="0.387" />
+        <entry key="..\:/TechShopApp/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.387" />
+        <entry key="..\:/TechShopApp/app/src/main/res/drawable/input_bg.xml" value="0.387" />
+        <entry key="..\:/TechShopApp/app/src/main/res/drawable/searchview_background.xml" value="0.387" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/activity_home.xml" value="0.31765711842667804" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/activity_product_detail.xml" value="0.25" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/activity_test_database.xml" value="0.38697916666666665" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/activity_watch_movie.xml" value="0.38697916666666665" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/config_product_item.xml" value="0.38697916666666665" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/custom_controller.xml" value="0.26927083333333335" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/fragment_cart.xml" value="0.2513586956521739" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/fragment_home.xml" value="0.2513586956521739" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/fragment_notification.xml" value="0.2513586956521739" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/grid_imagemore_item.xml" value="0.26927083333333335" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/grid_item.xml" value="0.38697916666666665" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/img_more_item.xml" value="0.23645833333333333" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/item_cast_film.xml" value="0.67" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/item_cat_film_list.xml" value="0.38697916666666665" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/item_category.xml" value="0.38697916666666665" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/item_movie.xml" value="0.38697916666666665" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/item_photo.xml" value="0.26927083333333335" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/list_cart.xml" value="0.38697916666666665" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/toolbar.xml" value="0.33" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/toolbar_account.xml" value="0.23645833333333333" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/toolbar_cart.xml" value="0.38697916666666665" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/toolbar_pd_detail.xml" value="0.2484375" />
+        <entry key="..\:/TechShopApp/app/src/main/res/layout/viewholder_category.xml" value="0.6016260162601627" />
+        <entry key="..\:/TechShopApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.38697916666666665" />
+        <entry key="..\:/TechShopApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.274" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

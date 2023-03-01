@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="@color/black"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supernatural"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:paddingEnd="15dp"
+        android:id="@+id/tv_name_catFilm"
+        android:textColor="@color/white"/>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.UpdateProfile">
+    <include layout="@layout/toolbar_cart"
+        android:id="@+id/toolbarUpdateProfile"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="120dp"
+        android:src="@drawable/backgroundimage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#FF0000"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Thêm ảnh"/>
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Họ tên "
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/tvUpdateUserfullName"
+            android:layout_height="50dp"
+            
+            android:gravity="center_vertical"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Giới tính "
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/tvUpdateUserSex"
+            
+            android:gravity="center_vertical"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Tuổi "
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/tvUpdateUserAge"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            
+            android:gravity="center_vertical"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại"
+            android:textColor="@color/white"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/tvUpdateUserPhone"
+            android:layout_height="50dp"
+            
+            android:gravity="center_vertical"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Ngày sinh"
+            android:textColor="@color/white"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/tvUpdateUserBirthday"
+            android:layout_height="50dp"
+            
+            android:gravity="center_vertical"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <TextView
+                android:id="@+id/tvUpdateProfile"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/input_bg"
+                android:text="Cập nhật"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1041215667233",
+    "project_id": "movieapp-5c5ab",
+    "storage_bucket": "movieapp-5c5ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041215667233:android:7d60b20fc9b59a5a8d3760",
+        "android_client_info": {
+          "package_name": "dz.phamtuanvan.techshopapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041215667233-rlilc99sfk93no9s54ac6tlcpminmagl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dz.phamtuanvan.techshopapp",
+            "certificate_hash": "0821e60c343f4b7bf04e0227e727ac0df54f1185"
+          }
+        },
+        {
+          "client_id": "1041215667233-i6n0ou55estepbtv20lmmtk8l8t8f13l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWByh1fPir9-p_8OJYvQUNwBlsN-BF1jE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041215667233-i6n0ou55estepbtv20lmmtk8l8t8f13l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dz.phamtuanvan.techshopapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".SharedPreference.LocalData"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher_1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TechShopApp"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activity.WatchedFilm"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChangePass"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FavoriteFilmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.WatchMovieActivity"
+            android:configChanges="orientation|screenSize|screenLayout"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".Activity.ProductDetail"
+            android:configChanges="orientation|screenSize|screenLayout"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".Activity.TestDatabase"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RegisterActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

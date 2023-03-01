@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".Activity.ChangePass">
+    <include layout="@layout/toolbar_cart"
+        android:id="@+id/toolbarChangePass"/>
+            <EditText
+                android:layout_width="350dp"
+                android:id="@+id/inputPasswordOld"
+                android:textColor="@color/white"
+                android:layout_height="60dp"
+                android:drawableLeft="@drawable/baseline_security_24"
+                android:drawablePadding="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/input_bg"
+                android:hint="Mật khẩu cũ"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:paddingBottom="13dp"
+                android:textColorHint="@color/white" />
+            <EditText
+                android:layout_width="350dp"
+                android:id="@+id/inputPasswordNew"
+                android:layout_height="60dp"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/baseline_security_24"
+                android:drawablePadding="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_bg"
+                android:hint="Nhập mật khẩu mới"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:paddingBottom="13dp"
+                android:textColorHint="@color/white" />
+            <EditText
+                android:layout_width="350dp"
+                android:id="@+id/inputConfirmPasswordNew"
+                android:layout_height="60dp"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/baseline_security_24"
+                android:drawablePadding="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_bg"
+                android:hint="Xác nhận lại mật khẩu mới"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:paddingBottom="13dp"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:id="@+id/tvChangePass"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/input_bg"
+                android:text="Đổi mật khẩu"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+</LinearLayout>

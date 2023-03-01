@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ProfileActivity">
+    <include layout="@layout/toolbar_cart"
+        android:id="@+id/toolbarProfile"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="120dp"
+        android:src="@drawable/backgroundimage"/>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="ID "
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tvUserProfileId"
+            android:layout_height="wrap_content"
+            android:text="Email :"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Email "
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tvUserEmail"
+            android:layout_height="wrap_content"
+            android:text="Email :"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Họ tên "
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUserfullName"
+            android:text="Giới tính :"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Giới tính "
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUserSex"
+            android:text="Email Adrress:"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Tuổi "
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tvUserAge"
+            android:layout_height="wrap_content"
+            android:text="Email Adrress:"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tvUserPhone"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Ngày sinh"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tvUserBirthday"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
